@@ -1,7 +1,8 @@
 repo_name: GamePad64/rust-libp2p
 report_id: 1cfe65822739d9fea34c69ca7b037da4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T15:52:25+00:00'
+timestamp: '2024-01-04T14:58:59+00:00'
 requested_by: divagant-martian
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/GamePad64/rust-libp2p
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/protocols/gossipsub/Cargo.toml
   detection_source: protocols/gossipsub/Cargo.toml
   last_updated_by: Age Manning
   last_updated_on: 2020-01-24 15:16:02.000000000 Z
@@ -38,7 +41,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source: swarm/Cargo.toml
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/core/Cargo.toml
+  detection_source: core/Cargo.toml
   last_updated_by: Robert Habermeier
   last_updated_on: 2017-04-08 16:26:05.000000000 Z
 - name: Rust
@@ -49,6 +53,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/GamePad64/rust-libp2p
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/GamePad64/rust-libp2p
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -67,7 +73,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/ci.yml"
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/.github/workflows/cargo-audit.yml
+  detection_source: ".github/workflows/cargo-audit.yml"
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-03-21 18:07:21.000000000 Z
 - name: Hyper
@@ -78,6 +85,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Containers as a Service
   image_url: https://img.stackshare.io/service/3125/xSVaubUG_400x400.jpg
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/misc/metrics/Cargo.toml
   detection_source: misc/metrics/Cargo.toml
   last_updated_by: John Hall
   last_updated_on: 2022-03-05 14:15:10.000000000 Z
@@ -89,6 +97,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/protocols/gossipsub/Cargo.toml
   detection_source: protocols/gossipsub/Cargo.toml
   last_updated_by: Age Manning
   last_updated_on: 2020-01-24 15:16:02.000000000 Z
@@ -100,7 +109,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source: swarm/Cargo.toml
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/core/Cargo.toml
+  detection_source: core/Cargo.toml
   last_updated_by: Robert Habermeier
   last_updated_on: 2017-04-08 16:26:05.000000000 Z
 - name: npm
@@ -111,6 +121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/GamePad64/rust-libp2p/blob/master/transports/websocket/Cargo.toml
   detection_source: transports/websocket/Cargo.toml
   last_updated_by: Pierre Krieger
   last_updated_on: 2018-01-02 14:22:55.000000000 Z
